@@ -1,0 +1,102 @@
+{
+  "Version": "1.0.0",
+  "ReleaseNotes": "TESTE UPDATE ONLINE @YANGVPS",
+  "UrlUpdate": "https://raw.githubusercontent.com/Yangvpn/CONECTA4G/main/UrlUpdate",
+  "Sms": "https://raw.githubusercontent.com/Yangvpn/CONECTA4G/main/URLSms",
+  "EmailFeedback": "ultranetvpn@gmail.com",
+  "UrlContato": "https://t.me/YANGVPN",
+  "UrlTermos": "https://raw.githubusercontent.com/Yangvpn/CONECTA4G/main/TERMOS%20DE%20USO.html",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7100"
+    },
+    {
+      "Porta": "7200"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "SERVIDOR BR",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "la.yangvps.tk",
+      "CheckUser": "http://20.226.46.113:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO - CLARO - TIM - OI",
+      "FLAG": "vivo",
+      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: la.yangvps.tk[crlf]X-Forward-Host: tm.noobsofre.ml[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO DIRECT",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: la.yangvps.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
+      "Name": "TIM - VIVO",
+      "FLAG": "tim",
+      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: tm.noobsofre.ml [crlf]X-Forward-Host: la.yangvps.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "CLARO LENTA SEM PROMOÇÃO",
+      "FLAG": "claro",
+      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: la.yangvps.tk[crlf]X-Forward-Host: tm.noobsofre.ml[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO RAPIDA SEM PROMOÇÃO",
+      "FLAG": "claro",
+      "Payload": "GET wss://content.akross.com.br/ HTTP/1.1[crlf]Host: la.yangvps.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI - VIVO",
+      "FLAG": "oi",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: la.yangvps.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
